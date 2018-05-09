@@ -1,0 +1,6 @@
+---
+parameters:
+  name: "streams"
+  type: "streams"
+  description: "custom streams tool"
+  dashboard_url: "https://api.apsportal.ibm.com"
