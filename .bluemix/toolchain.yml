@@ -49,12 +49,12 @@ services:
         execute: true
   webide:
     service_id: orion
+  streams:
+    service_id: customtool
+    $ref: streams.yml 
 form:
   pipeline:
     parameters:
       prod-app-name: '{{services.sample-repo.parameters.repo_name}}'
     schema:
       $ref: deploy.json
-streams:
-  service_id: customtool
-  $ref: streams.yml
