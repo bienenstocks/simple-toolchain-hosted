@@ -46,7 +46,7 @@ services:
           PROD_SPACE_NAME: '{{form.pipeline.parameters.prod-space}}'
           PROD_ORG_NAME: '{{form.pipeline.parameters.prod-organization}}'
           PROD_REGION_ID: '{{form.pipeline.parameters.prod-region}}'
-          ALL_STUFF: '{{toolchain.name}}'
+          ALL_STUFF: '{{form.pipeline.parameters}}'
      #     API_KEY: "{{form.pipeline.parameters.api-key}}"
         execute: true
   webide:
