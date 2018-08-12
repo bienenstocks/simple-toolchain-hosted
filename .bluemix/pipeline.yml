@@ -37,7 +37,7 @@ stages:
       #!/bin/bash
       # Push app
       echo "TEST APIKEY
-      echo ${API_KEY}
+      echo $api_key
       if ! cf app $CF_APP; then  
         cf push $CF_APP
       else

@@ -33,10 +33,10 @@
             "type": "string",
             "pattern": "\\S"
         }
-#        ,"api-key": {
-#            "description": "IAM api key",
-#            "type": "string"
-#        }
+        ,"api-key": {
+            "description": "IAM api key",
+            "type": "string"
+        }
     },
     "required": [
         "prod-region",
