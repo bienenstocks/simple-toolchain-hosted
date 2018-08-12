@@ -32,18 +32,17 @@
             },
             "type": "string",
             "pattern": "\\S"
-        },
-        "api-key": {
-            "description": "IAM api key",
-            "type": "string"
         }
+#        ,"api-key": {
+#            "description": "IAM api key",
+#            "type": "string"
+#        }
     },
     "required": [
         "prod-region",
         "prod-organization",
         "prod-space",
-        "prod-app-name",
-        "api-key"
+        "prod-app-name"
     ],
     "form": [
         {
