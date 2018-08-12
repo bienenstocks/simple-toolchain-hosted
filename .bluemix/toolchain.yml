@@ -57,6 +57,5 @@ form:
   pipeline:
     parameters:
       prod-app-name: '{{services.sample-repo.parameters.repo_name}}'
-      api-key: '{{apiKey}'
     schema:
       $ref: deploy.json
