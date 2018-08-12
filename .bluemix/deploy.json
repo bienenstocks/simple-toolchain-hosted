@@ -33,7 +33,7 @@
             "type": "string",
             "pattern": "\\S"
         },
-        "app-key": {
+        "api-key": {
             "description": "IAM api key",
             "type": "string"
         }
