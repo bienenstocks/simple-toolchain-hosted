@@ -22,7 +22,7 @@ stages:
     value: undefined
     type: text
   - name: APP_URL
-    value: ${ALL_STUFF}
+    value: ${API_KEY}
     type: text
   jobs:
   - name: Rolling Deploy
