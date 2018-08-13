@@ -14,6 +14,18 @@
     },
     "type": "object",
     "properties": {
+       "sa-instance": {
+         "description": "Streaming Analytics Instance Name",
+          "type": "string"
+       },
+       "mh-instance": {
+          "description": "Message Hub Instance Name",
+          "type": "string"
+        },
+        "cos-instance": {
+          "description": "Cloud Object Storage Instance Name",
+          "type": "string"
+        },
         "prod-region": {
             "description": "The bluemix region",
             "type": "string"
@@ -35,6 +47,9 @@
         }
     },
     "required": [
+        "sa-instance",
+        "mh-instance",
+        "cos-instance",
         "prod-region",
         "prod-organization",
         "prod-space",
