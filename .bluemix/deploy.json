@@ -71,7 +71,7 @@
         {
            "type": "text",
            "readonly": false,
-           "title":"Streaming Analytics Service"
+           "title":"Streaming Analytics Service",
            "key": "sa-instance"
         },
         {
